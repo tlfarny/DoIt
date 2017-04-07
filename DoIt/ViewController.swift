@@ -44,5 +44,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let task3 = Task(name: "Mow the lawn", important: false)
         return [task1,task2, task3]
     }
+    
+    @IBAction func plusTapped(_ sender: Any) {
+        performSegue(withIdentifier: "plusSegue", sender: nil)
+    }
+    
 }
 
