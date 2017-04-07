@@ -55,7 +55,7 @@
         <!--Plus Task View Controller-->
         <scene sceneID="CA9-ry-z1C">
             <objects>
-                <viewController id="NDS-KF-rO8" customClass="plusTaskViewController" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NDS-KF-rO8" customClass="PlusTaskViewController" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="To3-cZ-WWD"/>
                         <viewControllerLayoutGuide type="bottom" id="fjh-ap-geY"/>

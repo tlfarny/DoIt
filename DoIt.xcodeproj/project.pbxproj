@@ -14,7 +14,7 @@
 		93EA47391E97A83E0017E477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93EA47381E97A83E0017E477 /* Assets.xcassets */; };
 		93EA473C1E97A83E0017E477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EA473A1E97A83E0017E477 /* LaunchScreen.storyboard */; };
 		93EA47481E97AA9D0017E477 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA47471E97AA9D0017E477 /* Task.swift */; };
-		93EA474A1E97B50D0017E477 /* plusTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA47491E97B50D0017E477 /* plusTaskViewController.swift */; };
+		93EA474A1E97B50D0017E477 /* PlusTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA47491E97B50D0017E477 /* PlusTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		93EA473B1E97A83E0017E477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93EA473D1E97A83E0017E477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93EA47471E97AA9D0017E477 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		93EA47491E97B50D0017E477 /* plusTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plusTaskViewController.swift; sourceTree = "<group>"; };
+		93EA47491E97B50D0017E477 /* PlusTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				93EA47301E97A83E0017E477 /* ViewController.swift */,
 				93EA47471E97AA9D0017E477 /* Task.swift */,
 				93EA47321E97A83E0017E477 /* Main.storyboard */,
-				93EA47491E97B50D0017E477 /* plusTaskViewController.swift */,
+				93EA47491E97B50D0017E477 /* PlusTaskViewController.swift */,
 				93EA47381E97A83E0017E477 /* Assets.xcassets */,
 				93EA473A1E97A83E0017E477 /* LaunchScreen.storyboard */,
 				93EA473D1E97A83E0017E477 /* Info.plist */,
@@ -148,7 +148,7 @@
 				93EA47481E97AA9D0017E477 /* Task.swift in Sources */,
 				93EA47371E97A83E0017E477 /* DoIt.xcdatamodeld in Sources */,
 				93EA47311E97A83E0017E477 /* ViewController.swift in Sources */,
-				93EA474A1E97B50D0017E477 /* plusTaskViewController.swift in Sources */,
+				93EA474A1E97B50D0017E477 /* PlusTaskViewController.swift in Sources */,
 				93EA472F1E97A83E0017E477 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +313,7 @@
 				93EA47421E97A83E0017E477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

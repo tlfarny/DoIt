@@ -1,5 +1,5 @@
 //
-//  plusTaskViewController.swift
+//  PlusTaskViewController.swift
 //  DoIt
 //
 //  Created by Travis Farnsworth on 4/7/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class plusTaskViewController: UIViewController {
+class PlusTaskViewController: UIViewController {
 
     @IBOutlet weak var taskTextField: UITextField!
     @IBOutlet weak var importantSwitch: UISwitch!
