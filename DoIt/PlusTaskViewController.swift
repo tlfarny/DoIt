@@ -13,6 +13,9 @@ class PlusTaskViewController: UIViewController {
     @IBOutlet weak var taskTextField: UITextField!
     @IBOutlet weak var importantSwitch: UISwitch!
     
+//    var previousVC = 
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +24,6 @@ class PlusTaskViewController: UIViewController {
     }
 
     @IBAction func addTapped(_ sender: Any) {
+        let task = Task(name: taskTextField.text!, important: importantSwitch.isOn)
     }
 }

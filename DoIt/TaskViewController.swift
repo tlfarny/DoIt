@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TashViewController.swift
 //  DoIt
 //
 //  Created by Travis Farnsworth on 4/7/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class TaskViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
