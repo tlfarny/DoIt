@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933C80AC1E9908330065FC93 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C80AB1E9908330065FC93 /* CompleteTaskViewController.swift */; };
 		93EA472F1E97A83E0017E477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA472E1E97A83E0017E477 /* AppDelegate.swift */; };
 		93EA47311E97A83E0017E477 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA47301E97A83E0017E477 /* TaskViewController.swift */; };
 		93EA47341E97A83E0017E477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EA47321E97A83E0017E477 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		933C80AB1E9908330065FC93 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 		93EA472B1E97A83E0017E477 /* DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EA472E1E97A83E0017E477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93EA47301E97A83E0017E477 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				93EA472E1E97A83E0017E477 /* AppDelegate.swift */,
 				93EA47301E97A83E0017E477 /* TaskViewController.swift */,
 				93EA47491E97B50D0017E477 /* PlusTaskViewController.swift */,
+				933C80AB1E9908330065FC93 /* CompleteTaskViewController.swift */,
 				93EA47471E97AA9D0017E477 /* Task.swift */,
 				93EA47321E97A83E0017E477 /* Main.storyboard */,
 				93EA47381E97A83E0017E477 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			files = (
 				93EA47481E97AA9D0017E477 /* Task.swift in Sources */,
 				93EA47371E97A83E0017E477 /* DoIt.xcdatamodeld in Sources */,
+				933C80AC1E9908330065FC93 /* CompleteTaskViewController.swift in Sources */,
 				93EA47311E97A83E0017E477 /* TaskViewController.swift in Sources */,
 				93EA474A1E97B50D0017E477 /* PlusTaskViewController.swift in Sources */,
 				93EA472F1E97A83E0017E477 /* AppDelegate.swift in Sources */,
