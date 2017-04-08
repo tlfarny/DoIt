@@ -45,6 +45,11 @@ class TaskViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         return [task1,task2, task3]
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! PlusTaskViewController
+        nextVC.previousVC = self
+    }
+    
     @IBAction func plusTapped(_ sender: Any) {
         performSegue(withIdentifier: "plusSegue", sender: nil)
     }

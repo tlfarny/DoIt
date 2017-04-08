@@ -62,9 +62,9 @@
 			children = (
 				93EA472E1E97A83E0017E477 /* AppDelegate.swift */,
 				93EA47301E97A83E0017E477 /* TaskViewController.swift */,
+				93EA47491E97B50D0017E477 /* PlusTaskViewController.swift */,
 				93EA47471E97AA9D0017E477 /* Task.swift */,
 				93EA47321E97A83E0017E477 /* Main.storyboard */,
-				93EA47491E97B50D0017E477 /* PlusTaskViewController.swift */,
 				93EA47381E97A83E0017E477 /* Assets.xcassets */,
 				93EA473A1E97A83E0017E477 /* LaunchScreen.storyboard */,
 				93EA473D1E97A83E0017E477 /* Info.plist */,

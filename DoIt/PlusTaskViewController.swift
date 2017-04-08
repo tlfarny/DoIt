@@ -13,7 +13,7 @@ class PlusTaskViewController: UIViewController {
     @IBOutlet weak var taskTextField: UITextField!
     @IBOutlet weak var importantSwitch: UISwitch!
     
-//    var previousVC = 
+    var previousVC = TaskViewController()
     
     
     
@@ -25,5 +25,8 @@ class PlusTaskViewController: UIViewController {
 
     @IBAction func addTapped(_ sender: Any) {
         let task = Task(name: taskTextField.text!, important: importantSwitch.isOn)
+        previousVC.tasks.append(task)
+        previousVC.tableView.reloadData()
+        navigationController!.popViewController(animated: true)
     }
 }
